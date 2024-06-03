@@ -55,7 +55,7 @@ class DefaultFirebaseOptions {
     databaseURL: 'https://health-app-99603-default-rtdb.firebaseio.com',
     storageBucket: 'health-app-99603.appspot.com',
   );
-
+//old firebase ptions for android
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyCv28h-Zp2q-bw1AhiPT0-rtVvM-9LBFQI',
     appId: '1:131647123287:android:d9d8893b246e5f78d89812',
@@ -64,6 +64,18 @@ class DefaultFirebaseOptions {
     databaseURL: 'https://health-app-99603-default-rtdb.firebaseio.com',
     storageBucket: 'health-app-99603.appspot.com',
   );
+//new firebase options for android
+//  static const FirebaseOptions android = FirebaseOptions(
+//     apiKey: 'AIzaSyAOTJDPaoEKSmcbqQKcFKR-Y0ZOtXbGGi0',//have been changed
+//     appId: '1:464234703324:android:d5711e93b28ab772f60719',//have been changed
+//     messagingSenderId: '464234703324',//have been changed
+//     projectId: 'healthapp-7d258',//have been changed
+//     databaseURL: 'https://healthapp-7d258-default-rtdb.firebaseio.com', //have been changes
+//     storageBucket: 'healthapp-7d258.appspot.com',//have been changes
+//   );
+
+
+
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyB45rGly5QSTN-jF4qez-GSyB0U8G6WD8M',

@@ -253,8 +253,8 @@ class _DoctorProfileState extends State<DoctorProfile> {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
                               elevation: 2,
-                              primary: Colors.indigo.withOpacity(0.9),
-                              onPrimary: Colors.black,
+                              foregroundColor: Colors.indigo.withOpacity(0.9),
+                              backgroundColor: Colors.black,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(32.0),
                               ),
@@ -301,8 +301,8 @@ class _DoctorProfileState extends State<DoctorProfile> {
                               child: ElevatedButton(
                                 style: ElevatedButton.styleFrom(
                                   elevation: 2,
-                                  primary: Colors.indigo.withOpacity(0.9),
-                                  onPrimary: Colors.black,
+                                  foregroundColor: Colors.indigo.withOpacity(0.9),
+                                  backgroundColor: Colors.black,
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(32.0),
                                   ),
@@ -321,8 +321,8 @@ class _DoctorProfileState extends State<DoctorProfile> {
                               child: ElevatedButton(
                                   style: ElevatedButton.styleFrom(
                                     elevation: 2,
-                                    primary: Colors.indigo.withOpacity(0.9),
-                                    onPrimary: Colors.black,
+                                    foregroundColor: Colors.indigo.withOpacity(0.9),
+                                    backgroundColor: Colors.black,
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(32.0),
                                     ),

@@ -28,29 +28,29 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   carousel_slider: ^4.1.1
-  cloud_firestore: ^3.1.14
+  cloud_firestore: ^4.17.4
   cupertino_icons: ^1.0.2
-  firebase_auth: ^3.3.20
-  firebase_core: ^1.18.0
-  firebase_database: ^9.0.16
-  firebase_storage: ^10.2.18
+  firebase_auth: ^4.19.6
+  firebase_core: ^2.31.1
+  firebase_database: ^10.5.6
+  firebase_storage: ^11.7.6
   flutter:
     sdk: flutter
   fluttericon: ^2.0.0
-  google_fonts: ^2.3.2
+  google_fonts: ^6.2.1
   google_nav_bar: ^5.0.6
   icon: ^2.2.1
-  image_picker: ^0.8.5+3
-  intl: ^0.17.0
+  image_picker: ^1.1.1
+  intl: ^0.19.0
   introduction_screen: ^3.0.2
   shared_preferences: ^2.0.15
-  tabler_icons: ^0.0.3
+  tabler_icons: ^2.5.0+1
   typicons_flutter: ^0.5.0
   url_launcher: ^6.1.0
 
 dev_dependencies:
-  flutter_launcher_icons: ^0.9.2
-  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^4.0.0
   flutter_test:
     sdk: flutter
 

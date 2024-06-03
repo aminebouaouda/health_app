@@ -507,8 +507,8 @@ class _BookingScreenState extends State<BookingScreen> {
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             elevation: 2,
-                            primary: Colors.indigo,
-                            onPrimary: Colors.black,
+                          foregroundColor: Colors.indigo,
+                            backgroundColor: Colors.black,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(32.0),
                             ),

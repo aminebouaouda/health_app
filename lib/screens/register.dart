@@ -274,7 +274,7 @@ class _RegisterState extends State<Register> {
                     },
                     style: ElevatedButton.styleFrom(
                         elevation: 2,
-                        primary: Colors.grey[350],
+                        foregroundColor: Colors.grey[350],
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(32.0),
                         ),
@@ -314,7 +314,7 @@ class _RegisterState extends State<Register> {
                     },
                     style: ElevatedButton.styleFrom(
                       elevation: 2,
-                      primary: Colors.grey[350],
+                      foregroundColor: Colors.grey[350],
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(32.0),
                       ),
@@ -352,8 +352,8 @@ class _RegisterState extends State<Register> {
                   },
                   style: ElevatedButton.styleFrom(
                     elevation: 2,
-                    primary: Colors.indigo[900],
-                    onPrimary: Colors.black,
+                   foregroundColor: Colors.indigo[900],
+                    backgroundColor: Colors.black,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(32.0),
                     ),
